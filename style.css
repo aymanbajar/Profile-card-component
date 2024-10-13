@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('images/bg-pattern-top.svg');
+    background-color: #19a1ad;
+    padding: 100px;
+}
+.container{
+    width: 50%;
+    padding: 0;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+
+   
+}
+.image{
+    max-width: 600px;
+    margin: 0;
+
+}
+.image img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+.personalimage{
+    position: relative;
+    bottom: 35px;
+    left: 40%;
+   
+}
+.personalimage img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+h1,
+h3{
+    text-align: center;
+    padding: 0;
+    position: relative;
+    bottom: 60px;
+}
+h1{
+    color: #4b4b57;
+}
+h3{
+    color: #808185;
+}
+.content{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    position: relative;
+    bottom: 50px;
+}
+.content div span{
+    font-size: 25px;
+
+}
+@media(max-width:767px){
+    .container{
+        width: 170%;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        right: 65px;
+    }
+}
